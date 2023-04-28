@@ -11,8 +11,7 @@ import java.util.UUID;
 @Component
 @Scope(value = "request", proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class MyLogger {
-
-
+    //git 소스 테스트
     private String uuid;
     private String requestURL;
 
